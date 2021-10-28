@@ -1,0 +1,26 @@
+.app1{
+ margin-top: 20px;
+ margin-right: 100px;
+ margin-bottom: 50px;
+ margin-left: 50px;
+ align-content: center;
+ display: inline-block;
+}
+
+.about{
+  font-size: 30px;
+  margin: 45px 50px 50px 45px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(90, 144, 214);
+  width: 9in;
+  display: inline-block;
+}
+
+.para{
+  font-size: 25px;
+  font-weight: bold;
+  align-content: center;
+  text-align: center;
+}

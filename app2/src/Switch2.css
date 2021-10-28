@@ -1,0 +1,31 @@
+.toggle{
+    position: relative;
+    display: inline-block;
+  }
+  .toggle input{opacity: 0; position: absolute; left: 0; top: 0}
+  .toggle i{
+    position: relative;
+    background: #fff;
+    color: #000;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-style: normal;
+    transition: 350ms;
+    font-family: Roboto;
+  }
+  .toggle input:checked ~ i{
+    background: blue;
+    border: 1px solid blue;
+    color: #fff;
+  }
+  .toggle i:before{
+    content: attr(data-swchoff-text);
+  }
+  .toggle input:checked ~ i:before{
+    content: attr(data-swchon-text);
+  }

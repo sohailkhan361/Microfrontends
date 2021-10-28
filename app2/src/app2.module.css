@@ -1,0 +1,30 @@
+.app2{
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  align-content: center;
+  display: inline-block;
+  background-image: url(https://site.assetmark.com/~/media/assetmark/images/amoffice/concord.png);
+ }
+ 
+ .about{
+   font-size: 20px;
+   margin: 20px 20px 20px 20px;
+   text-align: center;
+   font-weight: bolder;
+   color: white;
+   background-color: rgb(90, 144, 214);
+   width: 9in;
+   display: inline-block;
+ }
+ 
+ .para{
+   margin-top: 2in;
+   font-size: 20px;
+   font-weight: lighter;
+   align-content: center;
+   text-align:left;
+   background-color: rgb(29, 80, 175);
+   color: white;
+ }

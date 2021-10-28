@@ -1,0 +1,23 @@
+.banner{
+  width: 10in;
+  height: 0.5in;
+  background-color: rgb(30, 91, 182);
+  align-content: center;
+  padding: 10px;
+  margin-left: 0.5in;
+  margin-right: 00.5in;
+  font-style: inherit;
+  display: table;
+  
+}
+
+.banner-title{
+  background-color: rgb(130, 193, 235);
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  
+}
+

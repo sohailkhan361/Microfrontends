@@ -1,0 +1,29 @@
+ul.tab {
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    border-radius: 5px;
+}
+ul.tab li {
+    float: left;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+ul.tab li label {
+  background: white;  
+  padding: 3px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-radius: 5px;
+  
+}
+ul.tab li input[type="radio"] {
+    opacity: 0;
+    width:1px;
+    height:1px;
+}
+ul.tab li input[type="radio"]:checked ~ label {
+    background:#0b64b4;
+    color: white;
+}
